@@ -1,7 +1,7 @@
 {
-  "name": "webpack5-react-ts",
+  "name": "performance-optimization-demo",
   "version": "1.0.0",
-  "description": "使用webpack5从零搭建完整的react18+ts构建环境",
+  "description": "webpack5,react18,ts,web-vitals",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development BASE_ENV=development webpack-dev-server -c build/webpack.dev.js",
@@ -15,20 +15,16 @@
     "analy": "cross-env NODE_ENV=production BASE_ENV=production webpack -c build/webpack.analy.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/guojiongwei/webpack5-react-ts.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/guojiongwei/webpack5-react-ts/issues"
-  },
-  "homepage": "https://github.com/guojiongwei/webpack5-react-ts#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "web-vitals": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
