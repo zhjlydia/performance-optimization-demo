@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import dogImg from "@/assets/dog2.png";
+import React, { useState } from 'react'
+import dogImg from '@/assets/dog2.png'
 
 const WebVitalsDemo: React.FC = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false)
 
   const onClick = () => {
-    setShow(true);
-  };
+    setShow(true)
+  }
 
   return (
     <>
@@ -16,6 +16,6 @@ const WebVitalsDemo: React.FC = () => {
         {show && <p>Good job!</p>}
       </div>
     </>
-  );
-};
-export default WebVitalsDemo;
+  )
+}
+export default WebVitalsDemo
