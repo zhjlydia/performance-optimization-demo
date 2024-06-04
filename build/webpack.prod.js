@@ -68,7 +68,7 @@ module.exports = merge(baseConfig, {
           // 提取页面公共代码
           name: 'commons', // 提取文件命名为commons
           minChunks: 2, // 只要使用两次就提取出来
-          chunks: 'initial', // 只提取初始化就能获取到的模块，不管异步的
+          chunks: 'all', // 初始化和异步加载都提取
           minSize: 0, // 提取代码体积大于0就提取出来
         },
       },
